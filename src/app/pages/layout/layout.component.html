@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+      <ul class="navbar-nav">
+          <!-- Add any navbar items here if needed -->
+      </ul>
+      <form class="d-flex">
+          <span class="text-white me-4">{{loggedUser?.email}}</span> <!-- Added margin to the right -->
+          <button class="btn btn-primary" type="button" (click)="onLogoff()">Logout</button>
+      </form>
+  </div>
+</nav>
+<div style="color: green; margin: 15px;"><h3>Welcome User</h3></div>
